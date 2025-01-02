@@ -30,6 +30,7 @@ ul a {
     text-decoration: none;
     padding: 12px 14px;
     color: #F4F0EA;
+    margin-top: 10px;
 }
 
 main {
@@ -54,7 +55,7 @@ input[type="radio"], input[type="checkbox"] {
     accent-color: #CCD595;
 }
 
-input[type="text"] {
+input[type="text"], input[type="password"], input[type="file"], input[type="email"], input[type="date"]{
     width: 100%;
     padding: 0.6rem;
     border: 2px solid #CCD595;
@@ -65,4 +66,24 @@ input[type="text"] {
 
 input::placeholder {
     color: #331F19;
+    font-size: 16px;
+}
+
+select {
+    cursor: pointer;
+    background-color: #CCD595;
+    color: #331F19;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+img {
+    width: 5rem;
+    border: 5px;
+    display: inline;
+}
+
+table {
+    border: none;
 }
