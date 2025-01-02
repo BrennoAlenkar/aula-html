@@ -28,6 +28,7 @@ nav ul {
 
 ul a {
     text-decoration: none;
+    display: flex;
     padding: 12px 14px;
     color: #F4F0EA;
     margin-top: 10px;
