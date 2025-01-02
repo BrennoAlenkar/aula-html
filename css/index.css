@@ -74,7 +74,6 @@ select {
     background-color: #CCD595;
     color: #331F19;
     border-radius: 5px;
-    border: none;
     outline: none;
 }
 
@@ -85,5 +84,15 @@ img {
 }
 
 table {
-    border: none;
+    padding: 10px;
+}
+
+th {
+    background-color: #5e423a;
+    color: #fff;
+    padding: 0.6rem;
+}
+
+td {
+    padding: 5px;
 }
